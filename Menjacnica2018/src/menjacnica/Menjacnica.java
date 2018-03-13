@@ -10,6 +10,7 @@ public class Menjacnica implements InterfejsMenjacnice {
 
 	LinkedList<Valuta> valuteMenjacnice = new LinkedList<>();
 
+	
 	@Override
 	public void dodajKurs(Valuta valuta) {
 		valuteMenjacnice.add(valuta);
